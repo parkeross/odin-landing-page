@@ -1,5 +1,7 @@
 * {
-    font-family: "Roboto",sans-serif;  
+    font-family: "Roboto",sans-serif; 
+    background-color: black; 
+    color: white;
 }
 
 html,body{
@@ -27,4 +29,100 @@ li {
     display: flex;
     color: whitesmoke;
     padding: 10px;
+}
+
+.first-section {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#placeholder {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    flex: 0 1 0;
+    max-width: 600px;
+}
+
+.second-section {
+    padding: 15px;
+}
+
+.second-section, .second-section>*{
+    background-color: white;
+    color: black;
+}
+
+.items-row, .item, .item>* {
+    background-color: white;
+    color: black;
+}
+
+.items-row, .item {
+    display: flex;
+}
+
+.items-row {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+}
+
+.third-section, .third-section>*, .third-section .container>*{
+    background-color: gray;
+    color: white;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: "light italic";
+}
+
+.newsletter {
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+.info {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 175px;
+}
+
+.info button {
+    min-width: 80px;
+    min-height: 40px;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 3px;
+}
+
+.footer {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
 }
